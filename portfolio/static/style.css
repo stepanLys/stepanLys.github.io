@@ -64,7 +64,7 @@ ul, li, p{
     background-position: center;
     background-size: cover;
     color: #fff;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .header-content{
@@ -166,8 +166,11 @@ hr{
 	display: inline-block;
 }
 .about-text{
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.7;
     margin-top: 30px;
-    font-weight: 300;
+    font-weight: 200;
     color: #fff;
 }
 
@@ -178,11 +181,18 @@ hr{
 	background-size: cover;
 	background-attachment: fixed;
 }
-#services H4 {
+#services h4 {
 	color: #E87E04;
 }
 #services .service {
 	margin-top: 40px;
+}
+#services p {
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 250px;
+    text-align: center;
+    margin: 0 auto;
 }
 #services i.fa {
     background: none;
@@ -248,13 +258,19 @@ hr{
     color: #fff;
     padding: 80px 0;
 }
+#contact p{
+    font-size: 16px;
+    font-weight: 200;
+}
+
 .social li{
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 25px;
 }
 
 
 #footer{
+    padding-bottom: 10px;
     border-top: 1px solid rgba(255,255,255,0.5);
     background-color: #282828;
 }
