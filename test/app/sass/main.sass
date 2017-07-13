@@ -1,0 +1,104 @@
+@import "vars"
+
+*
+	margin: 0;
+	padding: 0;
+
+
+html, body
+	font-size: 10px;
+	line-height: 1.4;
+	color: #000
+	font-family: "Tahoma";
+
+p
+	font-size: 14px;
+	color: #8d8d8d;
+	font-family: "Times New Roman";
+h2
+	font-size: 1.8rem
+	margin-top: 20px
+	line-height: 1.8
+
+body
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+
+.wrapper
+	max-width: 840px;
+	width: 100%
+	display: flex;
+	flex-direction: column;
+	margin-top: 8rem;
+
+.top
+	display: flex;
+	padding: 2rem 3rem
+	background-color: #f0f0f0;
+	&__img
+		margin-right: 2rem
+		img
+			width: 400px
+			height: auto
+			box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	&__content
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		transform: translateY(-5px)
+		h1
+			font-size: 2.1rem
+			font-weight: bold
+	.btn
+		width: 115px
+		height: 30px
+		box-sizing: border-box
+		border: none
+		border-radius: 3px
+		color: #fff
+		font-size: 1.3rem
+		background: -moz-linear-gradient(90deg, rgba(184,55,46,1) 0%, rgba(184,55,46,1) 1%, rgba(247,74,62,1) 100%); /* ff3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(247,74,62,1)), color-stop(99%, rgba(184,55,46,1)), color-stop(100%, rgba(184,55,46,1))); /* safari4+,chrome */
+		background: -webkit-linear-gradient(90deg, rgba(184,55,46,1) 0%, rgba(184,55,46,1) 1%, rgba(247,74,62,1) 100%); /* safari5.1+,chrome10+ */
+		background: -o-linear-gradient(90deg, rgba(184,55,46,1) 0%, rgba(184,55,46,1) 1%, rgba(247,74,62,1) 100%); /* opera 11.10+ */
+		background: -ms-linear-gradient(90deg, rgba(184,55,46,1) 0%, rgba(184,55,46,1) 1%, rgba(247,74,62,1) 100%); /* ie10+ */
+		background: linear-gradient(0deg, rgba(184,55,46,1) 0%, rgba(184,55,46,1) 1%, rgba(247,74,62,1) 100%); /* w3c */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F74A3E', endColorstr='#B8372E',GradientType=0 ); /* ie6-9 */
+		transition: all 0.3s
+		&:hover
+			background: -moz-linear-gradient(45deg, rgba(135,41,34,1) 0%, rgba(199,60,50,1) 99%, rgba(199,60,50,1) 100%); /* ff3.6+ */
+			background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(135,41,34,1)), color-stop(99%, rgba(199,60,50,1)), color-stop(100%, rgba(199,60,50,1))); /* safari4+,chrome */
+			background: -webkit-linear-gradient(45deg, rgba(135,41,34,1) 0%, rgba(199,60,50,1) 99%, rgba(199,60,50,1) 100%); /* safari5.1+,chrome10+ */
+			background: -o-linear-gradient(45deg, rgba(135,41,34,1) 0%, rgba(199,60,50,1) 99%, rgba(199,60,50,1) 100%); /* opera 11.10+ */
+			background: -ms-linear-gradient(45deg, rgba(135,41,34,1) 0%, rgba(199,60,50,1) 99%, rgba(199,60,50,1) 100%); /* ie10+ */
+			background: linear-gradient(45deg, rgba(135,41,34,1) 0%, rgba(199,60,50,1) 99%, rgba(199,60,50,1) 100%); /* w3c */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C73C32', endColorstr='#872922',GradientType=1 ); /* ie6-9 */
+
+
+.advantages
+	.advantage
+		width: 100%
+		height: 100%
+		&__item
+			position: relative
+			float: left
+			margin: 2rem 0 1rem 0
+			width: 25%
+			img
+				padding-left: 10px
+			span
+				font-size: 14px
+				font-style: italic
+				font-family: "Times New Roman";
+				position: absolute
+				left: 67px
+				top: 3px
+.articles
+	p 
+		margin-bottom: 15rem
+
+		
+
+@import "media" // Всегда в конце

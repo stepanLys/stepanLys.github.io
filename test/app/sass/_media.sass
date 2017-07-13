@@ -1,0 +1,54 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	*
+		margin: 0 5px
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.top
+		flex-direction: column
+		h1
+			margin: 1rem 0
+		p 
+			margin-bottom: 1rem
+		img
+			margin: 0 calc(50% - 190px)
+			width: 380px
+
+
+	.advantage__item
+		display: flex
+		justify-content: center
+		clear: left
+		min-width: 100%
+		margin: 2rem auto 1rem auto
+		span 
+			left: 58%!important		
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.top
+		img
+			width: 280px
+			margin: 0 calc(50% - 140px)
+	.advantage__item
+		display: flex
+		justify-content: start
+		span 
+			left: 22%!important	
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
