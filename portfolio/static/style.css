@@ -1,105 +1,105 @@
 *{
-    margin:0;
-    padding:0;
+	margin:0;
+	padding:0;
 }
 html, body{
-    height: 100%;
-    max-height: 100%;
-    font-family: 'Roboto', sans-serif;
+	height: 100%;
+	max-height: 100%;
+	font-family: 'Roboto', sans-serif;
 }
 
 a{
-    color: #c0c0c0;
-    text-decoration: none;
-    transition: color 0.3s ease;
+	color: #c0c0c0;
+	text-decoration: none;
+	transition: color 0.3s ease;
 }
 a:hover, a:focus, a:active{
-    color: #fff;
-    text-decoration: none;
-    font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
 }
 ul, li, p{
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .h1{
-    font-size: 22px;
-    font-weight: 200;
+	font-size: 22px;
+	font-weight: 200;
 }
 .h2 {
-    font-size: 36px;
-    font-weight: 200;
+	font-size: 36px;
+	font-weight: 200;
 }
 .h3{
-    margin: 0;
-    text-transform: uppercase;
+	margin: 0;
+	text-transform: uppercase;
 }
 .fa{
-    color: #fff;
-    font-size: 17px;
-    background-color: rgba(192,192,192, 0.7);
-    height: 38px;
-    width: 38px;
-    text-align: center;
-    margin: 18px 0;
-    line-height:38px;
-    border-radius: 100%;
-    transition: all, 0.3s, ease;
+	color: #fff;
+	font-size: 17px;
+	background-color: rgba(192,192,192, 0.7);
+	height: 38px;
+	width: 38px;
+	text-align: center;
+	margin: 18px 0;
+	line-height:38px;
+	border-radius: 100%;
+	transition: all, 0.3s, ease;
 }
 .fa:hover {
-    background-color: rgba(192, 192, 192, 1);
+	background-color: rgba(192, 192, 192, 1);
 }
 
 .wrapper{
-    margin:0;
-    padding:0;
-    max-width:100%;
-    max-height:100%;
+	margin:0;
+	padding:0;
+	max-width:100%;
+	max-height:100%;
 }
 
 #header{
-    height: 100vh;
-    background-image: url(img/bg-top.png);
-    background-position: center;
-    background-size: cover;
-    color: #fff;
-    font-weight: 300;
+	height: 100vh;
+	background-image: url(img/bg-top.png);
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	font-weight: 300;
 }
 
 .header-content{
-    padding-top: 11%;
+	padding-top: 11%;
 }
 .header-content .fa{
-    margin-top:40px;
+	margin-top:40px;
 }
 
 .header-social{
-    border-left: 1px solid rgba(255,255,255,0.5);
-    position: absolute;
-    display: flex;
-    right:0;
-    height: 100%;
-    top:0;
+	border-left: 1px solid rgba(255,255,255,0.5);
+	position: absolute;
+	display: flex;
+	right:0;
+	height: 100%;
+	top:0;
 }
 .line{
-    position: absolute;
-    height: 100%;
-    border-left: 1px solid rgba(255,255,255,0.5);
-    top: 0;
-    right: 58px;
-    z-index: 3;
+	position: absolute;
+	height: 100%;
+	border-left: 1px solid rgba(255,255,255,0.5);
+	top: 0;
+	right: 58px;
+	z-index: 3;
 }
 .soc{
-    margin: auto;
+	margin: auto;
 }
 .soc ul, li{
-    margin: 0;
-    padding:0;
-    list-style-type: none;
+	margin: 0;
+	padding:0;
+	list-style-type: none;
 }
 .soc a{
-    padding: 10px;
+	padding: 10px;
 }
 
 .affix{
@@ -110,34 +110,34 @@ ul, li, p{
 }
 
 .navbar{
-    border-bottom: 1px solid rgba(255,255,255,0.5);
-    margin: 0;
-    border-radius: 0;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	margin: 0;
+	border-radius: 0;
 }
 
 .mnu{
-    position: absolute;
-    width:100%;
-    border-top: 1px solid rgba(255,255,255,0.5);
-    bottom:0;
-    right:0;
-    float: right;
-    text-transform: uppercase;
+	position: absolute;
+	width:100%;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	bottom:0;
+	right:0;
+	float: right;
+	text-transform: uppercase;
 }
 
 .mnu li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 20px 25px;
-    color: #fff;
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px 25px;
+	color: #fff;
 }
 .mnu li:first-child{
-    float: left;
+	float: left;
 }
 .mnu li a:focus, .mnu li a:active{
-    color: #fff;
-    text-decoration: none;
-    font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
 }
 
 /* About section */
@@ -145,19 +145,19 @@ ul, li, p{
 #about {
 	padding: 80px 0;
 	background: #333;
-    color: #fff;;
+	color: #fff;;
 }
 
 hr{
-    height: 4px;
-    width: 70px;
-    text-align: center;
-    position: relative;
-    background: #E87E04;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    margin-top: 15px;
-    border: 0;
+	height: 4px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	background: #E87E04;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	border: 0;
 }
 #about img{
 	border-radius: 50%;
@@ -166,13 +166,13 @@ hr{
 	display: inline-block;
 }
 .about-text{
-    font-size: 16px;
-    margin: 0 auto;
-    text-align: center;
-    line-height: 1.7;
-    margin-top: 30px;
-    font-weight: 200;
-    color: #fff;
+	font-size: 16px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 1.7;
+	margin-top: 30px;
+	font-weight: 200;
+	color: #fff;
 }
 
 /* Services Section */
@@ -189,14 +189,14 @@ hr{
 	margin-top: 40px;
 }
 #services p {
-    font-size: 16px;
-    line-height: 1.7;
-    max-width: 250px;
-    text-align: center;
-    margin: 0 auto;
+	font-size: 16px;
+	line-height: 1.7;
+	max-width: 250px;
+	text-align: center;
+	margin: 0 auto;
 }
 #services i.fa {
-    background: none;
+	background: none;
 	font-size: 50px;
 	color: #2c3e50;
 	margin-bottom: 20px;
@@ -204,9 +204,41 @@ hr{
 
 /* Portfolio Section */
 #portfolio{
-    margin: 80px 0;
+	margin: 80px 0;
 }
-
+#portfolio img{
+	width: 100%;
+	height: 600px;
+}
+#portfolio .owl-nav{
+	position: relative;
+	z-index: 20;
+	height: 100%;
+	color: #fff;
+}
+#portfolio .owl-prev, .owl-next{
+	border-radius: 50%;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	bottom: 270px;
+}
+#portfolio .owl-prev .fa, .owl-next .fa{
+	background-color: transparent;
+	color: rgba(255,255,255, 0.5);
+	font-size: 30px;
+	transition: all 0.3s
+}
+#portfolio .owl-prev .fa:hover, #portfolio .owl-next .fa:hover{
+	color: rgba(255,255,255, 1);
+}
+#portfolio .owl-prev{
+	left: 20px;
+}
+#portfolio .owl-next{
+	right: 20px
+}
 
 /* Skills Section */
 #skills {
@@ -219,7 +251,7 @@ hr{
 	color: #474d5d;
 }
 #skills .skill {
-    margin-top: 40px;
+	margin-top: 40px;
 	margin-bottom: 40px;
 	text-align: center;
 	padding: 0px;
@@ -255,27 +287,27 @@ hr{
 }
 
 #contact{
-    background-color: #333;
-    color: #fff;
-    padding: 80px 0;
+	background-color: #333;
+	color: #fff;
+	padding: 80px 0;
 }
 #contact p{
-    font-size: 16px;
-    font-weight: 200;
+	font-size: 16px;
+	font-weight: 200;
 }
 
 .social li{
-    display: inline-block;
-    margin: 0 25px;
+	display: inline-block;
+	margin: 0 25px;
 }
 
 
 #footer{
-    padding-bottom: 10px;
-    border-top: 1px solid rgba(255,255,255,0.5);
-    background-color: #282828;
+	padding-bottom: 10px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	background-color: #282828;
 }
 #footer .copirate{
-    font-size: 11px;
-    color: rgba(255,255,255,0.5);
+	font-size: 11px;
+	color: rgba(255,255,255,0.5);
 }
