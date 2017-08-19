@@ -60,7 +60,7 @@ ul, li, p{
 
 #header{
 	height: 100vh;
-	background-image: url(img/bg-top.png);
+	background-image: url(../img/bg-top.png);
 	background-position: center;
 	background-size: cover;
 	color: #fff;
@@ -178,7 +178,7 @@ hr{
 /* Services Section */
 #services {
 	padding: 80px 0;
-	background: url(img/services-bg.jpg);
+	background: url(../img/services-bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -208,7 +208,7 @@ hr{
 }
 #portfolio img{
 	width: 100%;
-	height: 600px;
+	display: block;
 }
 #portfolio .owl-nav{
 	position: relative;
@@ -226,12 +226,12 @@ hr{
 }
 #portfolio .owl-prev .fa, .owl-next .fa{
 	background-color: transparent;
-	color: rgba(255,255,255, 0.5);
+	color: #c0c0c0;
 	font-size: 30px;
 	transition: all 0.3s
 }
 #portfolio .owl-prev .fa:hover, #portfolio .owl-next .fa:hover{
-	color: rgba(255,255,255, 1);
+	color: #aaa;
 }
 #portfolio .owl-prev{
 	left: 20px;
@@ -243,7 +243,7 @@ hr{
 /* Skills Section */
 #skills {
 	padding: 80px 0;
-	background: url(img/skills-bg.jpg);
+	background: url(../img/skills-bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
